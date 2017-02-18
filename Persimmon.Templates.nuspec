@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Persimmon.Templates</id>
+    <version>$version$</version>
+    <authors>pocketberserker</authors>
+    <description>Persimmon Template Pack for Microsoft Template Engine</description>
+    <projectUrl>https://github.com/persimmon-projects/Persimmon.Templates</projectUrl>
+    <licenseUrl>>https://github.com/persimmon-projects/Persimmon.Templates/blob/master/LICENSE</licenseUrl>
+    <iconUrl>https://raw.githubusercontent.com/persimmon-projects/Persimmon.Materials/master/StandardIcons/persimmon_128.png</iconUrl>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+</package>
