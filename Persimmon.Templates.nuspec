@@ -12,4 +12,7 @@
       <packageType name="Template" />
     </packageTypes>
   </metadata>
+  <files>
+    <file src="content/**" target="" />
+  </files>
 </package>

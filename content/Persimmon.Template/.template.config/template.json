@@ -12,28 +12,32 @@
   "sourceName": "Persimmon.Template",
   "preferNameDirectory": true,
   "symbols": {
-    "sdkVersion": {
-      "type": "bind",
-      "binding": "dotnet-cli-version",
-      "replaces": "1.0.0-preview5-004445"
-    },
-    "RuntimeFrameworkVersion": {
+    "TargetFrameworkOverride": {
       "type": "parameter",
-      "replaces": "2.0.0-beta-001507",
+      "description": "Overrides the target framework",
+      "replaces": "TargetFrameworkOverride",
       "datatype": "string",
-      "defaultValue": "2.0.0-beta-001507"
+      "defaultValue": ""
     },
     "Framework": {
       "type": "parameter",
+      "description": "The target framework for the project.",
       "datatype": "choice",
       "choices": [
+        {
+          "choice": "netcoreapp1.0",
+          "description": "Target netcoreapp1.0"
+        },
+        {
+          "choice": "netcoreapp1.1",
+          "description": "Target netcoreapp1.1"
+        },
         {
           "choice": "netcoreapp2.0",
           "description": "Target netcoreapp2.0"
         }
       ],
-      "replaces": "netcoreapp2.0",
-      "defaultValue": "netcoreapp2.0"
+      "defaultValue": "netcoreapp1.1"
     }
   },
   "primaryOutputs": [ { "path": "Persimmon.Template.fsproj" } ]
