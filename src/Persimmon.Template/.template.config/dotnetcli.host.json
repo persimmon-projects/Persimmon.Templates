@@ -1,0 +1,12 @@
+{
+  "symbolInfo": {
+    "Framework": {
+      "longName": "framework"
+    },
+    "TargetFrameworkOverride": {
+      "isHidden": "true",
+      "longName": "target-framework-override",
+      "shortName": ""
+    }
+  }
+}

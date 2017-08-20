@@ -1,0 +1,39 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FF30061F-E2DE-4299-9C9B-B83A20ECBCB2}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Persimmon.Template", "src\Persimmon.Template\Persimmon.Template.fsproj", "{07FAED4C-6082-4A91-9E5E-2E5D54D4EB2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07FAED4C-6082-4A91-9E5E-2E5D54D4EB2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07FAED4C-6082-4A91-9E5E-2E5D54D4EB2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07FAED4C-6082-4A91-9E5E-2E5D54D4EB2B}.Debug|x64.ActiveCfg = Debug|x64
+		{07FAED4C-6082-4A91-9E5E-2E5D54D4EB2B}.Debug|x64.Build.0 = Debug|x64
+		{07FAED4C-6082-4A91-9E5E-2E5D54D4EB2B}.Debug|x86.ActiveCfg = Debug|x86
+		{07FAED4C-6082-4A91-9E5E-2E5D54D4EB2B}.Debug|x86.Build.0 = Debug|x86
+		{07FAED4C-6082-4A91-9E5E-2E5D54D4EB2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07FAED4C-6082-4A91-9E5E-2E5D54D4EB2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07FAED4C-6082-4A91-9E5E-2E5D54D4EB2B}.Release|x64.ActiveCfg = Release|x64
+		{07FAED4C-6082-4A91-9E5E-2E5D54D4EB2B}.Release|x64.Build.0 = Release|x64
+		{07FAED4C-6082-4A91-9E5E-2E5D54D4EB2B}.Release|x86.ActiveCfg = Release|x86
+		{07FAED4C-6082-4A91-9E5E-2E5D54D4EB2B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{07FAED4C-6082-4A91-9E5E-2E5D54D4EB2B} = {FF30061F-E2DE-4299-9C9B-B83A20ECBCB2}
+	EndGlobalSection
+EndGlobal
