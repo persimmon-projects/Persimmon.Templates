@@ -7,6 +7,10 @@
       "isHidden": "true",
       "longName": "target-framework-override",
       "shortName": ""
+    },
+    "skipRestore": {
+      "longName": "no-restore",
+      "shortName": ""
     }
   }
 }

@@ -38,6 +38,12 @@
         }
       ],
       "defaultValue": "netcoreapp1.1"
+    },
+    "skipRestore": {
+      "type": "parameter",
+      "datatype": "bool",
+      "description": "If specified, skips the automatic restore of the project on create.",
+      "defaultValue": "false"
     }
   },
   "primaryOutputs": [ { "path": "Persimmon.Template.fsproj" } ]
