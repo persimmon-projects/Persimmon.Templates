@@ -1,0 +1,9 @@
+source https://api.nuget.org/v3/index.json
+
+group Build
+  source https://api.nuget.org/v3/index.json
+
+  nuget FAKE
+  nuget Nuget.CommandLine
+
+  github fsharp/FAKE modules/Octokit/Octokit.fsx

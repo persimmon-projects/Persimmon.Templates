@@ -1,0 +1,19 @@
+
+
+GROUP Build
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    FAKE (4.63)
+    Microsoft.Bcl (1.1.10) - restriction: && (< net45) (< win8) (< portable-win81+wpa81)
+      Microsoft.Bcl.Build (>= 1.0.14)
+    Microsoft.Bcl.Build (1.0.21) - import_targets: false, restriction: && (< net45) (< win8) (< portable-win81+wpa81)
+    Microsoft.Net.Http (2.2.29) - restriction: && (< net45) (< win8) (< portable-win81+wpa81)
+      Microsoft.Bcl (>= 1.1.10)
+      Microsoft.Bcl.Build (>= 1.0.14)
+    NuGet.CommandLine (4.1)
+    Octokit (0.24)
+      Microsoft.Net.Http  - restriction: && (< net45) (< win8) (< portable-win81+wpa81)
+GITHUB
+  remote: fsharp/FAKE
+    modules/Octokit/Octokit.fsx (291f58cc70aba6dd871cf18e66d2d88357e4f208)
+      Octokit (>= 0.20)

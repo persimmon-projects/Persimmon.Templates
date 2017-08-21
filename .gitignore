@@ -1,3 +1,7 @@
 .nupkg
 obj/
 bin/
+packages/
+.fake/
+.paket/paket.exe
+paket-files/
