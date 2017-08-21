@@ -8,6 +8,10 @@
       "longName": "target-framework-override",
       "shortName": ""
     },
+    "EnablePack": {
+      "shortName": "p",
+      "longName": "enable-pack"
+    },
     "skipRestore": {
       "longName": "no-restore",
       "shortName": ""
