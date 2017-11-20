@@ -2,8 +2,6 @@
 open Fake
 open Fake.Git
 open Fake.ReleaseNotesHelper
-open System
-open System.IO
 
 let outDir = "bin"
 

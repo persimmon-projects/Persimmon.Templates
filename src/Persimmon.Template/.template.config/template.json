@@ -29,7 +29,7 @@
           "description": "Target netcoreapp2.0"
         }
       ],
-      "defaultValue": "netcoreapp1.1"
+      "defaultValue": "netcoreapp2.0"
     },
     "EnablePack": {
       "type": "parameter",
