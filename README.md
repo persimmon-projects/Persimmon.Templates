@@ -5,6 +5,6 @@ Persimmon templates for `dotnet new` command
 ## Usage
 
 ```bash
-dotnet new -i Persimmon.Template::*
+dotnet new -i Persimmon.Templates::*
 ```
 
